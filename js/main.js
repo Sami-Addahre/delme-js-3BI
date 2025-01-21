@@ -1,6 +1,5 @@
-console.log("main.js");
+const pippo = document.querySelector;
+const $$ = document.querySelector;
+const titolo = document.querySelector('h1')
 
-function ciao(messaggio) {
-    console.log(`Ciao ${messaggio}`);
-}
-ciao ("mondo")
+console.log(titolo.length)
